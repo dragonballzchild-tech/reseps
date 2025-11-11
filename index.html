@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width-device-width, inital-scale=1.0" />
+    <title>Restaurant | Menu</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">Restaurant</div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#" class="active">Menu</a></li>
+          <li><a href="#">Chef</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#" class="btn-contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Menu Section -->
+    <section class="menu-section">
+      <div class="menu-header">
+        <p class="subtitle">OUR DISHES</p>
+        <h1 class="title">The Best <span>of ALL Time</span></h1>
+
+        <div class="menu-tabs">
+          <button class="tab active" data-category="pizza">Pizza</button>
+          <button class="tab" data-category="pasta">Pasta</button>
+          <button class="tab" data-category="meat">Meat & Seafood</button>
+          <button class="tab" data-category="fish">Fish</button>
+        </div>
+
+        <p class="info-text">
+          OUR PIZZAS, ABOUT 32 CM, ARE FRESHLY TOPPED AND STONE-BAKED.
+        </p>
+      </div>
+
+      <!-- Dish Grid -->
+      <div id="menu-container" class="menu-grid">
+        <!-- Items will be inserted dynamically by JS -->
+      </div>
+    </section>
+    
+    <footer>
+      <p>© 2025 .Restaurant | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
